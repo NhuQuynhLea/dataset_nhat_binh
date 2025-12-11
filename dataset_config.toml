@@ -1,0 +1,11 @@
+[general]
+resolution = [1024, 1024] 
+caption_extension = ".txt"
+batch_size = 2
+enable_bucket = true
+bucket_no_upscale = true
+
+[[datasets]]
+image_directory = "dataset_nhat_binh/images"
+cache_directory = "dataset_nhat_binh/cache"
+num_repeats = 10
